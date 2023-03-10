@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dulli</title>
+	<style>
+		:root {
+			--color-primary:  rgb(73,164,163);
+			--color-bg: #eee;
+		}
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--color-primary:  rgb(73,164,163);
+				--color-bg: #111;
+			}
+		}
+		html {
+			border: 6pt solid var(--color-primary);
+			height: 100%;
+			box-sizing: border-box;
+		}
+		body {
+			background-image: url(img/logo.svg);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 25%;
+			background-color: var(--color-bg);
+		}
+	</style>
+	<link rel="icon" href="img/logo.svg" />
+</head>
+<body>
+</body>
+</html>
